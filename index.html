@@ -1,0 +1,62 @@
+<!-- Author:Sangram
+Assignment:Addskill week 5 -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center> <h2 id="blink" >Responsive Calculator</h2><hr class="line3"></center> 
+    <div  id="Calculator_table">
+       
+       <input id="resultfield"/>
+      
+       
+      
+       <br>
+       <hr class="line2">
+       <div id="container">
+       <div id="allnumbers" class="number" onclick="assignvalue(this)" data-value="1"  >1</div>
+       <div id="allnumbers" onclick="assignvalue(this)" data-value="2"  >2</div>
+       <div id="allnumbers" onclick="assignvalue(this)" data-value="3"  >3</div>
+       <div id="dynamicfield1">
+
+       </div>
+       
+       <br>
+       <div id="allnumbers" onclick="assignvalue(this)" data-value="4"  >4</div>
+       <div id="allnumbers" onclick="assignvalue(this)" data-value="5"  >5</div>
+       <div id="allnumbers" onclick="assignvalue(this)" data-value="6"  >6</div>
+       <div id="dynamicfield2">
+
+       </div>
+<br>
+       <div id="allnumbers" onclick="assignvalue(this)" data-value="7"  >7</div>
+       <div id="allnumbers" onclick="assignvalue(this)" data-value="8"  >8</div>
+       <div id="allnumbers" onclick="assignvalue(this)" data-value="9"  >9</div>
+       <div id="dynamicfield3">
+
+       </div>
+       
+ <div></div>
+      
+       <div id="allnumbers" onclick="assignvalue(this)" data-value="."  >.</div>
+       <div id="allnumbers" onclick="assignvalue(this)" data-value="0"  >0</div>
+           
+       
+<br>
+       
+    </div>
+</div>
+<script src="blink.js" ></script> 
+<script src="calculator.js" ></script> 
+ </body>
+  
+</html>

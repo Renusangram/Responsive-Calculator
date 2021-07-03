@@ -1,0 +1,138 @@
+
+
+    #allnumbers
+    {
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(32, 31, 31);
+    padding: 10px;
+    width: 20px;
+    display: inline-block;
+    margin-bottom: 2%;
+    margin-right: 4%;
+    cursor: pointer;
+    text-align: center;
+    }
+
+    #dynamicfield1,#dynamicfield2,#dynamicfield3{
+      display: inline;
+    }
+
+    .Alloperator
+    {
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(32, 31, 31);
+    padding: 10px;
+    width: 23px;
+    display: inline-block;
+    margin-bottom: 2%;
+    margin-right: 4%;
+    cursor: pointer;
+    text-align: center;
+    }
+
+
+    #allnumbers:hover{
+        background-color:grey;
+    }
+
+    .Alloperator:hover{
+        background-color:red;
+    }
+    .line2{
+	border-top: 2px double rgb(32, 31, 31);
+}
+
+.line3{
+	border-top: 5px double red;
+    width: 30%;
+}
+    #Result
+    {
+    cursor: pointer;
+    background-color:darkorange;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 15px;
+    width: 85px;
+    height: 15px;
+    
+    display: inline-block;
+    text-align: center;
+    }
+
+    #Result:hover{
+        background-color:orange;
+    }
+
+    #resultfield
+    {
+    cursor: no-drop;
+    margin-top: 1%;
+    background-color:yellowgreen;
+    border: solid black 2px;
+    width:290px;
+    height:50px;
+    color: rgb(85, 34, 34);
+    text-align: right;
+    font-size: 40px;
+    
+    }
+    #Calculator_table{
+        margin: auto;
+        margin-top: 50px;
+      width:300px;
+      height:350px;
+      background-color:black;
+      padding: 20px;
+      box-shadow:1px 8px 8px 2px gray;
+    }
+    #container{
+
+        height:250px;
+        margin-top: inherit;
+    }
+
+    @media screen and (max-width:600px) {
+        #Calculator_table{
+        width:auto;
+        margin: auto;
+    }
+    }
+     @media screen and (max-width:377px) {
+         #container{
+            width:auto;
+                        
+    }
+    }
+    @media screen and (max-width:377px) {
+        #allnumbers{
+            width:auto;
+                
+    }
+    }
+     @media screen and (max-width:377px) {
+        .Alloperator{
+             width:auto;
+            
+                    
+    }
+    }
+    @media screen and (max-width:377px) {
+        #resultfield{
+            width:auto;
+                        
+    }
+    }
+    @media screen and (max-width:377px) {
+         #Result{
+            
+            width:auto;
+            
+    }
+    }
+    
